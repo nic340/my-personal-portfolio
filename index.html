@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .rounded-card { border-radius: 20px; }
+    </style>
+</head>
+<body class="bg-[#f8fafc] text-slate-700 font-sans">
+
+    <nav class="p-6 flex justify-between items-center max-w-4xl mx-auto">
+        <span class="font-bold text-xl text-blue-600">Nicole.</span>
+        <div class="space-x-6 text-sm">
+            <a href="#projects" class="hover:text-blue-500">My Works</a>
+            <a href="#about" class="hover:text-blue-500">About Me</a>
+        </div>
+    </nav>
+
+    <header class="py-20 px-6 text-center max-w-4xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+            Hi, I'm Nicole! 👋
+        </h1>
+        <p class="text-lg text-slate-600 mb-8">
+            I am a Data Science student who loves to learn new things. 
+            When I'm not studying data or cloud computing, you'll probably find me dancing!
+        </p>
+        <a href="mailto:your-email@example.com" class="bg-blue-600 text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition">
+            Say Hello
+        </a>
+    </header>
+
+    <section id="projects" class="py-16 px-6 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold mb-8 text-slate-800 border-b-2 border-blue-100 inline-block">My Works</h2>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="p-6 bg-slate-50 rounded-card border border-slate-100">
+                    <h3 class="font-bold text-lg text-blue-600 mb-2">Data Science Student</h3>
+                    <p class="text-sm text-slate-600">
+                        I enjoy working with data to find interesting patterns. I'm currently practicing 
+                        how to use machine learning for school projects.
+                    </p>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-card border border-slate-100">
+                    <h3 class="font-bold text-lg text-blue-600 mb-2">Cloud Computing Activity</h3>
+                    <p class="text-sm text-slate-600">
+                        This website is my first step into the cloud! I learned how to host my 
+                        own portfolio using GitHub and Render.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 px-6 max-w-4xl mx-auto">
+        <div class="bg-blue-50 p-8 rounded-card flex flex-col md:flex-row items-center gap-8">
+            <div class="text-center md:text-left">
+                <h2 class="text-2xl font-bold text-slate-800 mb-3">More than just code...</h2>
+                <p class="text-slate-600">
+                    Dancing is my talent and my favorite way to express myself. It keeps me 
+                    creative and energetic even after a long day of studying!
+                </p>
+            </div>
+            <div class="w-32 h-32 bg-blue-200 rounded-full flex items-center justify-center text-3xl">
+                💃
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-slate-400 text-xs">
+        <p>&copy; 2026 Nicole | Built for my Cloud Computing Class</p>
+    </footer>
+
+</body>
+</html>
